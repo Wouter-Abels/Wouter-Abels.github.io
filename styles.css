@@ -1,5 +1,11 @@
-html, body { color: #434242; font-family: 'Roboto', sans-serif !important; height: 100%; }
-body { background: #F3EFE0; font-size: 15px; line-height: 1.64;}
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-size: 15px; line-height: 1.64; background-color: #292929!important;
+}
+
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b { font-family: 'Roboto', sans-serif !important; margin-bottom: 20px; }
 h1,h4 { font-weight: 700; margin-bottom: 10px; }
@@ -23,7 +29,31 @@ div {
     color: white;
 }
 
+p.lead {
+    text-align: center;
+    color: #f2ffff;
+}
 
+div h1{
+    text-align: center;
+    color: #eefbfb;
+
+}
+
+.navbar {
+    background-color: #434242
+}
+
+.parallax {
+    background-image: url("bg-im.jpeg");
+    padding-top: 300px;
+    padding-bottom: 700px;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .profile img {
     border-radius: 50%;
@@ -32,31 +62,63 @@ div {
     height: auto;
     border-width: 100px;
     border-color: lightgrey;
+}
+
+.container-fluid .container{
+    max-width: 1400px;
+}
+
+.container-fluid .container h3 {
+    padding: 30px;
 
 }
 
 #profile {
-    padding-top: 60px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 80px;
+    padding: 60px 30px 80px;
+}
+
+#profile .row {
+    padding: 30px;
 }
 
 
 .experiences {
     padding-left: 30px;
     padding-right: 30px;
+    padding-bottom: 20px;
 
+}
+
+.experiences .row {
+    padding-bottom: 20px;
+}
+
+.experiences .row .col-md-4 {
+    color: black;
+}
+
+.experiences .row .col-md-8 {
+    color: black;
+}
+
+
+#experience {
+    background-color: lightgray;
+    padding-top: 80px;
+    padding-bottom: 80px
 }
 
 #skills {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 80px 30px;
 }
 
 #projects {
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: lightgray;
+    padding: 80px 30px;
+}
+
+#contact {
+    wdith: 100%;
 }
 
 

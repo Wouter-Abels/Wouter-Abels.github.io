@@ -15,25 +15,26 @@
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
 </head>
 
-<body data-offset="50" data-spy="scroll" data-target=".navbar" style="background-color: #292929;">
+<body data-offset="50" data-spy="scroll" data-target=".navbar">
 
-<
-<div class="jumbotron jumbotron-fluid" id="top">
+
+<div class="parallax" id="top">g
     <div class="container">
-        <h1 style="color:black; text-align: center">Wouter Abels</h1>
+        <h1>Wouter Abels</h1>
         <hr>
-        <p class="lead" style="color:black; text-align: center">Interactive Resume</p>
+        <p class="lead">Interactive Resume</p>
     </div>
 </div>
 
-<nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #434242">
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
     <button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#top">Profile</a>
+                <a class="nav-link" href="#profile">Profile</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#experience">Experience</a>
@@ -48,74 +49,76 @@
     </div>
 </nav>
 
+<div class="container-fluid" id="profile">
+    <div class="container">
+        <h2>Profile</h2>
+        <hr>
 
-<div class="container-fluid" id="profile" style="max-width: 1400px;">
-    <h2>Profile</h2>
-    <hr>
+        <div class="profile">
 
-    <div class="profile">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>About me</h3>
+                    <p> I am a beginning DevOps engineer with an interest in IT and Science.
+                        In 2019 I received my bachelor degree in molecular biology,
+                        although I liked the biology and the data processing after almost 8 years I was done with the
+                        wet
+                        lab work and wanted something new.
+                        During my degree I did a minor in bioinformatics and computational biology,
+                        the creation of small and simple yet highly effective scripts used in this field of science and
+                        using Python, SQL, R and Linux pulled me into the world of software development.
+                        <br>
+                        And so I started a traineeship at Young Capital Next as DevOps engineer to expand my knowledge
+                        of
+                        IT and software development.
+                        During a two month bootcamp I learned valuable skills regarding requirements engineering,
+                        software
+                        testing, and software development.
+                        And now with my technical affinity, analytical skills, helpfulness and communicative nature I am
+                        ready to make high-quality products to help companies and users.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="Wouter Abels" height="246" src="Wouter_Abels.png" width="246"/>
+                </div>
+                <div class="col-md-4 ">
+                    <h3>Details</h3>
+                    <p>
+                        <strong>Name:</strong><br/>
+                        Wouter Abels<br/>
+                        <strong>Age:</strong><br/>
+                        25 years<br/>
+                        <strong>Location:</strong><br/>
+                        Utrecht, The Netherlands
+                    </p>
 
-        <div class="row" style="padding: 30px;">
-            <div class="col-md-4">
-                <h3>About me</h3>
-                <p> I am a beginning DevOps engineer with an interest in IT and Science.
-                    In 2019 I received my bachelor degree in molecular biology,
-                    although I liked the biology and the data processing after almost 8 years I was done with the wet
-                    lab work and wanted something new.
-                    During my degree I did a minor in bioinformatics and computational biology,
-                    the creation of small and simple yet highly effective scripts used in this field of science and
-                    using Python, SQL, R and Linux pulled me into the world of software development.
-                    <br>
-                    And so I started a traineeship at Young Capital Next as DevOps engineer to expand my knowledge of
-                    IT and software development.
-                    During a two month bootcamp I learned valuable skills regarding requirements engineering, software
-                    testing, and software development.
-                    And now with my technical affinity, analytical skills, helpfulness and communicative nature I am
-                    ready to make high-quality products to help companies and users.
-                </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <img style="border-width: 20px; border-color:lightgray;" alt="Wouter Abels" height="246"
-                     src="Wouter_Abels.png" width="246"/>
-            </div>
-            <div class="col-md-4 ">
-                <h3>Details</h3>
-                <p>
-                    <strong>Name:</strong><br/>
-                    Wouter Abels<br/>
-                    <strong>Age:</strong><br/>
-                    25 years<br/>
-                    <strong>Location:</strong><br/>
-                    Utrecht, The Netherlands
-                </p>
-
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="experience"
-     style="background-color: lightgray;padding-top: 80px; padding-bottom: 80px">
-    <div class="container" style="max-width: 1400px;">
+<div class="container-fluid" id="experience">
+    <div class="container">
         <h2>Experience</h2>
 
         <hr>
 
 
-        <h3 style="padding: 30px;">Education</h3>
+        <h3>Education</h3>
 
         <div class="experiences">
 
 
-            <div class="row" style="padding-bottom: 20px;">
+            <div class="row">
                 <div class="col-md-4">
-                    <h4 style="color:black;">Youngcapital Next</h4>
-                    <p class="experience-period" style="color:black;">
-                        Nov 2019 -
+                    <h4>Youngcapital Next</h4>
+                    <p class="experience-period">
+                        Nov 2019-
                         Feb 2020 </p>
                 </div>
                 <div class="col-md-8">
-                    <p style="color:black;">
+                    <p>
                         <strong>Bootcamp - DevOps Engineer Traineeship</strong><br>
                         <span class="hidden-phone">
 					Learning the essence of DevOps in two months, and earning certificates in Scrum (psm-1),
@@ -129,15 +132,15 @@
                 </div>
             </div>
 
-            <div class="row" style="padding-bottom: 20px;">
+            <div class="row">
                 <div class="col-md-4">
-                    <h4 style="color:black;">Hogeschool Utrecht</h4>
-                    <p class="experience-period" style="color:black;">
+                    <h4>Hogeschool Utrecht</h4>
+                    <p class="experience-period">
                         Sept 2015 -
                         May 2019 </p>
                 </div>
                 <div class="col-md-8">
-                    <p style="color:black;">
+                    <p>
                         <strong>Bachelor - Life Science (Specialization: Biomolecular Research)</strong><br>
                         <span class="hidden-phone">
                     </span>
@@ -152,15 +155,15 @@
                 </div>
             </div>
 
-            <div class="row" style="padding-bottom: 20px;">
+            <div class="row">
                 <div class="col-md-4">
-                    <h4 style="color:black;">ROC Midden Nederland</h4>
-                    <p class="experience-period" style="color:black;">
+                    <h4>ROC Midden Nederland</h4>
+                    <p class="experience-period">
                         Sept 2010 -
                         Jul 2015 </p>
                 </div>
                 <div class="col-md-8">
-                    <p style="color:black;">
+                    <p>
                         <strong>Mbo-4 Laboratory Technician (Specialization: Pathology)</strong><br>
                         <span class="hidden-phone">
                         A practical approach to science and medical diagnostics.
@@ -177,21 +180,21 @@
         </div>
         <hr/>
 
-        <h3 style="padding: 30px;">Career</h3>
+        <h3>Career</h3>
 
 
         <div class="experiences">
 
 
-            <div class="row" style="padding-bottom: 20px;">
+            <div class="row">
                 <div class="col-md-4">
-                    <h4 style="color:black;">Bioceros | Developing Protein Producing Cell Lines</h4>
-                    <p class="experience-period" style="color:black;">
+                    <h4>Bioceros | Developing Protein Producing Cell Lines</h4>
+                    <p class="experience-period">
                         Sept 2018 -
                         Apr 2019 </p>
                 </div>
                 <div class="col-md-8">
-                    <p style="color:black;">
+                    <p>
                         <strong>Fulltime - Research Technician Graduation Internship</strong>
                         <span class="hidden-phone"><br>
 					Research and development on the binding properties of antibodies.
@@ -214,16 +217,16 @@
                 </div>
             </div>
 
-            <div class="row" style="padding-bottom: 20px;">
+            <div class="row">
                 <div class="col-md-4">
-                    <h4 style="color:black;">Hoekmine B.V. | Creating Vivid Structural Colours From Highly Ordered
+                    <h4>Hoekmine B.V. | Creating Vivid Structural Colours From Highly Ordered
                         Bacteria</h4>
-                    <p class="experience-period" style="color:black;">
+                    <p class="experience-period">
                         Sept 2018 -
                         Apr 2019 </p>
                 </div>
                 <div class="col-md-8">
-                    <p style="color:black;">
+                    <p>
                         <strong>Fulltime - Research Technician Internship</strong>
                         <span class="hidden-phone"><br>
 					Research on diffraction gratings formed by microorganisms associated with macroalgae.
@@ -244,15 +247,15 @@
                 </div>
             </div>
 
-            <div class="row" style="padding-bottom: 20px;">
+            <div class="row">
                 <div class="col-md-4">
-                    <h4 style="color:black;">UMC Utrecht | University Hospital </h4>
-                    <p class="experience-period" style="color:black;">
+                    <h4>UMC Utrecht | University Hospital </h4>
+                    <p class="experience-period">
                         Sept 2014 -
                         Jun 2015 </p>
                 </div>
                 <div class="col-md-8">
-                    <p style="color:black;">
+                    <p>
                         <strong>Fulltime - Laboratory Technician Internship</strong>
                         <span class="hidden-phone"><br>
 					Laboratory work in a clinical diagnostic pathology lab.
@@ -277,14 +280,15 @@
 </div>
 
 
-<div class="container-fluid" id="skills"
-     style="background-color: #292929;padding-top: 80px; padding-bottom: 80px; max-width: 1400px">
-    <h2>Skills</h2>
+<div class="container-fluid" id="skills">
+    <div class="container">
+        <h2>Skills</h2>
 
-    <hr>
+        <hr>
 
-    <div class="skill">
-        <canvas id="skillsBarChart"></canvas>
+        <div class="skill">
+            <canvas id="skillsBarChart"></canvas>
+        </div>
     </div>
 </div>
 
@@ -292,9 +296,8 @@
 </div>
 
 
-<div class="container-fluid" id="projects"
-     style="background-color: lightgray;padding-top: 80px; padding-bottom: 80px">
-    <div class="container" style="max-width: 1400px;">
+<div class="container-fluid" id="projects">
+    <div class="container">
         <h2>Projects</h2>
 
         <hr>
@@ -329,7 +332,7 @@
 </div>
 
 
-<footer id="contact" style="width: 100%;">
+<footer id="contact">
     <div class="container-fluid text-center">
         <p><b>Find me on LinkedIn and GitHub!</b></p>
         <a href="https://www.linkedin.com/in/wouter-abels" target="_blank">
