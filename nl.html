@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wouter Abels - Interactieve CV</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"></script>
+    <link href="styles.css" rel="stylesheet" type="text/css"/>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet">
+</head>
+
+<body data-offset="50" data-spy="scroll" data-target=".navbar">
+
+
+<div class="parallax" id="top">
+    <div class="container">
+        <h1>Wouter Abels</h1>
+        <hr>
+        <p class="lead">Interactieve CV</p>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+    <button class="navbar-toggler" data-target="#collapsibleNavbar" data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#profile">Profiel</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">Ervaring</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Vaardigheden</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projecten</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item-right">
+                <a class="nav-link" href="index.html">ENG |</a>
+            </li>
+            <li class="nav-item-right active">
+                <a class="nav-link" href="nl.html">NL</a>
+            </li>
+        </ul>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid" id="profile">
+    <div class="container">
+        <h2>Profiel</h2>
+        <hr>
+
+        <div class="profile">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Over mij</h3>
+                    <p> Ik ben een startende DevOps engineer met een groot intresse in IT en wetenschap.
+                        In 2019 heb ik mijn bachelor diploma in moleculaire biologie gehaald,
+                        en hoewel ik de biologie en het verwerken van data interesant vind was ik na 8 jaar wel toe aan
+                        iets anders.
+                        Tijdens mijn opleiding heb ik een minor gedaan in bioinformatica, hier heb ik veel gebruik
+                        gemaakt van Python, SQL, R, en linux
+                        om kleine en simple scripts te schrijven die toch erg krachtig zijn in het uitvoeren van de
+                        taken.
+                        Deze minor was zo leuk dat ik graag verder wil met IT.
+                        <br>
+                        Om mijn kennis en vaardigheden op het gebied van IT uit te breiden begon ik met een traineeship
+                        bij Young Capital Next als DevOps engineer.
+                        In de eerste twee maanden van het traineeship heb ik belangrijke vaardigheden geleerd om op een
+                        goede manier te werken in de softwareontwikking. During a two month bootcamp I learned valuable
+                        skills regarding requirements engineering,
+                        Met mijn technische affiniteit, analytische
+                        vaardigheden, behulpzaamheid en communicatieve karakter ben ik klaar om te beginnen bij een
+                        leuke opdrachtgever.
+                        ready to make high-quality products to help companies and users.
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img alt="Wouter Abels" height="246" src="Wouter_Abels.png" width="246"/>
+                </div>
+                <div class="col-md-4 ">
+                    <h3>Details</h3>
+                    <p>
+                        <strong>Naam:</strong><br/>
+                        Wouter Abels<br/>
+                        <strong>Leeftijd:</strong><br/>
+                        25 jaar<br/>
+                        <strong>Location:</strong><br/>
+                        Utrecht, Nederland
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" id="experience">
+    <div class="container">
+        <h2>Ervaring</h2>
+
+        <hr>
+
+
+        <h3>Opleidingen</h3>
+
+        <div class="experiences">
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Youngcapital Next</h4>
+                    <p class="experience-period">
+                        nov 2019-
+                        feb 2020 </p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Bootcamp - DevOps Engineer Traineeship</strong><br>
+                        <span class="hidden-phone">
+                            De basis van DevOps in twee maanden, en het halen van Scrum (psm-1),
+                            IREB (foundation level), ISTQB (foundation level) en DevOps fundamentals certificaten.
+                    </span>
+                        <span class="experience-details">
+					<span class="location"><br>
+						<span data-feather="map-pin"></span> Leiden</span>
+				</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Hogeschool Utrecht</h4>
+                    <p class="experience-period">
+                        sept 2015 -
+                        mei 2019 </p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Bachelor - Life Science (Specialisatie: Biomoleculaire Research)</strong><br>
+                        <span class="hidden-phone">
+                    </span>
+                        <span class="experience-details">
+                            Een opleiding gefocust op biologie en wetenschappelijk onderzoek.
+                            Met een minor in bioinformatica en computationele biologie om zo mijn liefde voor computers en biologie te kunnen combineren.
+					<span class="location"><br>
+						<span data-feather="map-pin"></span> Utrecht</span>
+				</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>ROC Midden Nederland</h4>
+                    <p class="experience-period">
+                        sept 2010 -
+                        jul 2015 </p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Mbo-4 Laboratorium Techniek Analist (specialisatie: Pathologie)</strong><br>
+                        <span class="hidden-phone">
+                            Een praktische opleiding met de focus op medische diagnostiek en wetenschap.
+                    </span>
+                        <span class="experience-details">
+					<span class="location"><br>
+						<span data-feather="map-pin"></span> Utrecht</span>
+				</span>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+        <hr/>
+
+        <h3>Carière</h3>
+
+
+        <div class="experiences">
+
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Bioceros | Ontwikkelen Van Eiwit Producerende Cellijnen</h4>
+                    <p class="experience-period">
+                        sept 2018 -
+                        apr 2019 </p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Fulltime - Onderzoek analist Afstudeer Stage</strong>
+                        <span class="hidden-phone"><br>
+                            Het onderzoeken en ontwikkelen van bindingseigenschappen van antilichamen.
+                    </span>
+                        <span class="experience-details">
+					<span class="location"><br>
+						<span data-feather="map-pin"></span>
+						Utrecht					</span>
+
+
+					<span class="seperator">|</span>
+					<span class="link">
+						<span data-feather="link"></span>
+						<a href="https://bioceros.com" target="_blank">https://bioceros.com</a>
+					</span>
+
+
+				</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Hoekmine B.V. | Maken van Levendige structurele kleuren op basis van zeer geordende
+                        Bacteriën
+                    </h4>
+                    <p class="experience-period">
+                        sept 2018 -
+                        apr 2019 </p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Fulltime - Onderzoek analist stage</strong>
+                        <span class="hidden-phone"><br>
+                            Onderzoek naar diffractieroosters gevormd door micro-organisme.
+                    </span>
+                        <span class="experience-details">
+					<span class="location"><br>
+						<span data-feather="map-pin"></span>
+						Utrecht					</span>
+
+
+					<span class="seperator">|</span>
+					<span class="link">
+						<span data-feather="link"></span>
+						<a href="https://hoekmine.com" target="_blank">https://hoekmine.com</a>
+					</span>
+				</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>UMC Utrecht | Universitair Ziekenhuis </h4>
+                    <p class="experience-period">
+                        sept 2014 -
+                        jun 2015 </p>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        <strong>Fulltime - analist weefselfaciliteit</strong>
+                        <span class="hidden-phone"><br>
+                            Laboratoriumwerk in een klinisch diagnostiek lab.
+                    </span>
+                        <span class="experience-details">
+					<span class="location"><br>
+						<span data-feather="map-pin"></span>
+						Utrecht					</span>
+
+
+					<span class="seperator">|</span>
+					<span class="link">
+						<span data-feather="link"></span>
+						<a href="https://www.umcutrecht.nl" target="_blank">https://www.umcutrecht.nl</a>
+					</span>
+				</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container-fluid" id="skills">
+    <div class="container">
+        <h2>Vaardigheden</h2>
+
+        <hr>
+
+        <div class="skill">
+            <canvas id="skillsBarChart"></canvas>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+<div class="container-fluid" id="projects">
+    <div class="container">
+        <h2>Projecten</h2>
+
+        <hr>
+
+        <div class="projects"></div>
+
+        <div class="carousel slide" data-ride="carousel" id="carouselIndicators">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0" data-target="#carouselIndicators"></li>
+                <li data-slide-to="1" data-target="#carouselIndicators"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                    <img alt="Youngcapital Next Choachings app in JAVA" class="d-block w-100" src="Slide1.PNG">
+                </div>
+                <div class="carousel-item" data-interval="10000">
+                    <img alt="A Game of Dice in Python" class="d-block w-100" src="Slide2.PNG">
+                </div>
+            </div>
+            <a class="carousel-control-prev" data-slide="prev" href="#carouselIndicators" role="button">
+                <span aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" data-slide="next" href="#carouselIndicators" role="button">
+                <span aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+</div>
+
+
+<footer id="contact">
+    <div class="container-fluid text-center">
+        <p><b>Vindt mij op LinkedIn en GitHub!</b></p>
+        <a href="https://www.linkedin.com/in/wouter-abels" target="_blank">
+            <i data-feather="linkedin"></i>
+        </a>
+        <a href="https://github.com/Wouter-Abels" target="_blank">
+            <i data-feather="github"></i>
+        </a>
+    </div>
+
+</footer>
+
+<script>
+    feather.replace()
+
+    var data = {
+        labels: ['Java', 'Python', 'HTML(5)', 'CSS(3)', 'R', 'SQL', 'JavaScript', 'Scrum(PSM 1)', 'MS Azure', 'Amazon Web Services',
+            'Docker', 'Kubernetes', 'Selenium', 'Bootstrap', 'Spring Boot', 'Thymeleaf', 'IREB', 'ISTQB', 'MS Office', 'Windows',
+            'Linux', 'Git(Hub/Lab)', 'Jira', 'Postman', 'Engels', 'Nederlands', 'Duits'],
+        datasets: [{
+            label: 'Level',
+            data: [3, 3, 4, 3, 1, 2, 2, 2, 1, 1, 2, 2, 1, 3, 2, 2, 2, 2, 3, 5, 3, 2, 1, 1, 5, 5, 1],
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)',
+                'rgba(255, 99, 132, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)', 'rgba(153, 102, 255, 0.2)', 'rgba(255, 159, 64, 0.2)',
+                'rgba(54, 162, 235, 0.2)', 'rgba(255, 159, 64, 0.2)', 'rgba(55,255,57,0.2)'
+
+            ],
+            borderColor: [
+                'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)',
+                'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)',
+                'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)',
+                'rgba(255, 99, 132, 1)', 'rgba(54, 162, 235, 1)', 'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)', 'rgba(153, 102, 255, 1)', 'rgba(255, 159, 64, 1)',
+                'rgba(54, 162, 235, 1)', 'rgba(255, 159, 64, 1)', 'rgb(36,255,48)'
+            ],
+            borderWidth: 1
+        }]
+    };
+
+
+    Chart.defaults.global.legend.display = false;
+    Chart.defaults.global.animation.duration = 2000;
+    Chart.defaults.scale.ticks.beginAtZero = true;
+
+
+    var inView = false;
+
+    function isScrolledIntoView(elem) {
+        var docViewTop = $(window).scrollTop();
+        var docViewBottom = docViewTop + $(window).height();
+
+        var elemTop = $(elem).offset().top;
+        var elemBottom = elemTop + $(elem).height();
+
+        return ((elemTop <= docViewBottom) && (elemBottom >= docViewTop));
+    }
+
+
+    $(window).scroll(function () {
+        if (isScrolledIntoView('#skillsBarChart')) {
+            if (inView) {
+                return;
+            }
+            inView = true;
+            new Chart(
+                document.getElementById("skillsBarChart").getContext("2d"),
+                {type: 'horizontalBar', data: data});
+        } else {
+            inView = false;
+        }
+    });
+
+</script>
+</body>
+</html>
