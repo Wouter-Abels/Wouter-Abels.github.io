@@ -125,8 +125,8 @@ div h1{
 
 section {
     opacity: 0;
-    transform: translate(0, 250px);
-    transition: all 1s;
+    transform: translate(0, 20px);
+    transition: all 2s;
 }
 
 section.visible {
